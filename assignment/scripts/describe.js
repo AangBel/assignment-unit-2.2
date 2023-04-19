@@ -29,7 +29,7 @@ if (number >= 2) {
 // in line 36 it is establishing the let variable of name as Dane. 
 // in line 38 through 42 theres an if statement which checks if the variable of name is exactly equal to Mary. it is not so it would move on
 // -to the next line(40). on this line there is an else statement which sets the console to log How do you do if the IF before it was not true/valid.
-//
+// the console log would put out How do you do in this case. if the name were Mary, then the console log would state- hi mary!
 
 //CODE
 /*
@@ -51,6 +51,7 @@ if (name === 'Mary') {
 //- line 65 checks if the code (123) is greater than 250, which its not, but if it were then it would set-
 //- the variable secret as 'duper'. line 69 then logs the variable of secret, which bc the first is true-
 //- would be 'super'. 
+//The value of secret and code before it hits the conditional would be that secret is undefined and code is 123. By the end, secret is set to super and the code of 123 has been multiplied by 2, 
 //CODE
 /*
 
@@ -142,7 +143,7 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
-//FIX  colorOne is supposed to be set to blue, not red. colorTwo is fine and so is mix=true.the if -
+//FIX  colorOne is supposed to be set to blue, not red. colorTwo is *supposed to be red* and so is mix=true.the if -
 // - is also incorrect as the directions state that if mix is true then both colorOne and colorTwo are set to 'purple'. -
 //- the code written above just writes it for one.
 
@@ -186,8 +187,10 @@ if(minAge <= age) {
 // if(age >= minAge) {
 //  console.log('enter');  
 // }
-
-
+//*feedback points out that a 21 year old would not be able to gain entry, so i would say that youd have to write an if for if underage, if 21 and if more than 21. possibly doing something like 
+//- if (minAge === age){
+//  console.log('enter');
+//}
 //---------------------------------------------------
 //---------------------------------------------------
 
