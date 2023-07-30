@@ -63,6 +63,8 @@ if (name === 'Mary') {
 //It also writes that IF the value of code is bigger than 250... then it would run the following code...
 //of line 79 in which the variable of secret is changed to the string of 'duper' if this second chunk of code is activated.
 //in line 83 the code then console logs whatever the value of the variable of secret is. 
+//What actually ends up happening in this code is that because code is in fact 123, it triggers the first section and multiplies the value of code, which is 123
+// by 2. the code then checks this second if statement but because code is not more than 250- it does not trigger this code. 
 //
 //CODE
 /*
@@ -199,6 +201,9 @@ if(minAge <= age) {
 // if(age >= minAge) {
 //  console.log('enter');  
 // }
+
+//RESUBMISSION 
+// The actual answer here is that because minAge 21 is <= (less than or equal to) to age of 21 it makes the console log the string of 'no entry'. the second section of the code isnt activated because it is an else statement and the first condition was already met. 
 //*feedback points out that a 21 year old would not be able to gain entry, so i would say that youd have to write an if for if underage, if 21 and if more than 21. possibly doing something like 
 //- if (minAge === age){
 //  console.log('enter');
