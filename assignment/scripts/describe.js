@@ -45,13 +45,25 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// line 56 sets seccret as a variable but does not define it- which i think is ok to do just while its -
+// line 56 sets secret as a variable but does not define it- which i think is ok to do just while its -
 // - eventually done... line 58 sets code as a variable for 123. then it has a conditional-
 // -if code is exactly 123 then...secret would be set to 'super' and code would multiply 123 *2. 
 //- line 65 checks if the code (123) is greater than 250, which its not, but if it were then it would set-
 //- the variable secret as 'duper'. line 69 then logs the variable of secret, which bc the first is true-
 //- would be 'super'. 
 //The value of secret and code before it hits the conditional would be that secret is undefined and code is 123. By the end, secret is set to super and the code of 123 has been multiplied by 2, 
+
+//Resubmission:
+// by using the word let- line 62 declares a variable with the name of secret. The code then moves on to the next step...
+// line 65 is where a second variable is declared. This variable is then called code and given a value of numbers 123. The code then moves on to the next step...
+// line 68 starts by saying if code were to exactly equal to the number 123 then it would do the following...
+//the following would be in lines 70 and 71 because the } indicates the end of the code that is to be ran if the above condition occurs...
+// if the above is true it would change the value of secret into the string of 'super' AND
+// the variable of code would then be multiplied by two. 
+//It also writes that IF the value of code is bigger than 250... then it would run the following code...
+//of line 79 in which the variable of secret is changed to the string of 'duper' if this second chunk of code is activated.
+//in line 83 the code then console logs whatever the value of the variable of secret is. 
+//
 //CODE
 /*
 
